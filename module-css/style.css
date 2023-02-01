@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Fragment Mono', monospace;
+    background:#22212C ;
+    color:#837E9F;
+}
+.div-principal{
+    max-width: 1430px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.preface-main{
+    margin-top: 30px;
+    background:#302F3D ;
+    padding: 30px 100px 50px 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-right: 80px;
+}
+.imgs{
+    border-radius: 50%;
+    border: 1px solid #C71585;
+    padding: 3px;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 18px;
+  }
+.preface-h2{
+    font-weight: 700;
+  }
+.preface-p{
+    font-weight:400 ;
+    line-height: 20px;
+  }    
+.dados {
+    margin-top: 20px;
+    background:#302F3D ;
+    padding: 30px 100px 50px 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-right: 80px;
+}
+.dice a {
+    text-decoration: none;
+    color: #837E9F;
+}
+.dice {
+    display: flex;
+    margin-top: 20px;
+    padding: 7px;
+}
+
+.dice svg{
+   padding-right: 20px;
+   width: 20px;
+   height: 20px;
+}
+
+.languages {
+    margin-top: 20px;
+    background:#302F3D ;
+    padding: 30px 100px 50px 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-right: 80px;
+}
+
+.languages h1 {
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+
+.linguagem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button{
+    font-weight: bold;
+    background: #CB92B1;
+    border-radius: 20px;
+    width: 100px;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.segunda-div-principal {
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 15px
+}
+
+.projects{
+    background:#302F3D ;
+    padding: 30px 30px 30px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-right: 60px;
+
+}
+.projects h2{
+    font-weight: 700;
+    font-size: 22px;
+}
+.projects a{
+    text-decoration: none;
+    color:#837E9F
+}  
+
+.star{
+    display: flex;
+    margin-right: 60px;
+}
+
+.caixas{
+    background:#302F3D ;
+  border-radius: 20px;
+  padding: 10px 58px 10px 30px;
+  box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+  margin-bottom: 40px;
+}
+.caixa1 {
+    margin-right: 20px;
+}
+
+.caixas p{
+    font-size: 12px;
+}
+.icone svg{
+    width: 20px;
+    height: 20px;
+    padding-right: 25px;
+}
+.icone{
+    display: flex;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+.icone a {
+    text-decoration: none;
+    color: #837E9F;
+}
+.icons p {
+    margin-top: 17px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.fork{
+    display: flex;
+    justify-content: space-between;
+}
+.fork svg {
+    width: 15px;
+    height: 15px;
+    padding-right: 7px;
+}
+.star1{
+    display: flex;
+    align-items: center;
+}
+.star1 p{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.jS{
+    display: flex;
+    align-items: center;
+}
+
+.jS span{
+    background: #C71585;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid;
+    margin: 2px;
+}    
+
+.recents {
+    background:#302F3D ;
+    padding: 30px 30px 30px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-right: 60px;
+}
+
+.recents h2 {
+    font-size: 22px;
+}
+
+.ultima-sessao{
+    background:#302F3D ;
+    padding: 24px 20px 24px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 0.5px #1C1C1C;
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+.ultima-sessao p{
+    font-size: 12px;
+}
+
+.foto img{
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    margin-right: 20px;
+}    
+
+.hastag1 p{
+    margin-bottom: 73px;
+}
+
+.hastag2 p {
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+
+@media (max-width: 500px) {
+   .div-principal {
+        display: block;
+   }
+   .preface-main {
+    margin-right: 36px;
+    }
+    .dados {
+        margin-right: 36px;
+    }
+    .languages {
+        margin-right: 36px;
+    }
+    .linguagem {
+        margin-left: -66px;
+    }
+    .projects {
+        margin-left: 30px;
+        margin-right: 36px;
+    }
+    .star {
+        display: block;
+        margin-left: 30px;
+        margin-right: 18px;
+    }
+    .caixas {
+        margin-right: 18px;
+    }
+    .recents {
+        margin-right: 36px;
+        margin-left: 30px;
+    }
+    .ultima-sessao {
+        margin-left: 30px;
+        margin-right: 36px;
+    }
+}
+
+@media (max-width: 412px) {
+    .div-principal {
+         display: block;
+    }
+    .preface-main {
+     margin-right: 36px;
+    }
+    .dados {
+         margin-right: 36px;
+    }
+    .languages {
+         margin-right: 36px;
+    }
+    .linguagem {
+         margin-left: -95px;
+    }
+    .projects {
+         margin-left: 30px;
+         margin-right: 36px;
+    }
+    .star {
+         display: block;
+         margin-left: 30px;
+         margin-right: 18px;
+    }
+    .caixas {
+         margin-right: 18px;
+    }
+    .recents {
+         margin-right: 36px;
+         margin-left: 30px;
+    }
+    .ultima-sessao {
+         margin-left: 30px;
+         margin-right: 36px;
+    }
+    button {
+        width: 90px;
+    }
+ }
+ 
